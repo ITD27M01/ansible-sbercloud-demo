@@ -1,0 +1,13 @@
+---
+clouds:
+  sbercloud:
+    auth:
+      auth_url: "https://iam.ru-moscow-1.hc.sbercloud.ru/v3"
+      project_name: "ru-moscow-1"
+      username: "ansible"
+      password: "sEcr@t"
+      user_domain_id: "big_id"
+      project_domain_name: "big_id"
+    region_name: "ru-moscow-1"
+    interface: "public"
+    identity_api_version: 3

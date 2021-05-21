@@ -1,0 +1,7 @@
+---
+- name: Demo Play for all SBC hosts
+  hosts: all
+  collections:
+    - openstack.cloud
+  tasks:
+    - ping:
